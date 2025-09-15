@@ -1,2 +1,2 @@
-flask
+flask=0.66666666
 pytest
