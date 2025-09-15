@@ -30,7 +30,7 @@ jobs:
       - name: Deploy (simulate)
         run: |
           echo "Simulating deployment..."
-          echo "Deployment successful!"
+          exit! "Deployment successful!"
 
       - name: Save Logs
         if: failure()
